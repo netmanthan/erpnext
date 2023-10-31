@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors
 
 # For license information, please see license.txt
 

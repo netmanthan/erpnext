@@ -1,4 +1,4 @@
-// Copyright (c) 2021, Frappe Technologies Pvt. Ltd. and contributors
+// Copyright (c) 2021, NETMANTHAN TECHNOLOGIES. and contributors
 // For license information, please see license.txt
 // Contributed by Case Solved and sponsored by Nulight Studios
 /* eslint-disable */

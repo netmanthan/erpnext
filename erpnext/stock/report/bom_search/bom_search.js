@@ -1,4 +1,4 @@
-// Copyright (c) 2013, Frappe Technologies Pvt. Ltd. and Contributors and contributors
+// Copyright (c) 2013, NETMANTHAN TECHNOLOGIES. and Contributors and contributors
 // For license information, please see license.txt
 
 frappe.query_reports["BOM Search"] = {

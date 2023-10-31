@@ -1,4 +1,4 @@
-# Copyright (c) 2021, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2021, NETMANTHAN TECHNOLOGIES. and Contributors
 # MIT License. See license.txt
 
 

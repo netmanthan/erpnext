@@ -1,4 +1,4 @@
-// Copyright (c) 2016, Frappe Technologies Pvt. Ltd. and contributors
+// Copyright (c) 2016, NETMANTHAN TECHNOLOGIES. and contributors
 // For license information, please see license.txt
 {% include "erpnext/public/js/controllers/accounts.js" %}
 frappe.provide("erpnext.accounts.dimensions");

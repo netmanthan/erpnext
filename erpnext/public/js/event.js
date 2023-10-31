@@ -1,4 +1,4 @@
-// Copyright (c) 2018, Frappe Technologies Pvt. Ltd. and Contributors
+// Copyright (c) 2018, NETMANTHAN TECHNOLOGIES. and Contributors
 // MIT License. See license.txt
 frappe.provide("frappe.desk");
 

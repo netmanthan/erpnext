@@ -1,4 +1,4 @@
-# Copyright (c) 2013, Frappe Technologies Pvt. Ltd. and contributors
+# Copyright (c) 2013, NETMANTHAN TECHNOLOGIES. and contributors
 # License: MIT. See LICENSE
 
 import frappe
