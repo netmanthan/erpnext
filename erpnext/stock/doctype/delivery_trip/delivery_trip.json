@@ -1,4 +1,5 @@
 {
+ "actions": [],
  "autoname": "naming_series:",
  "creation": "2017-10-16 16:45:48.293335",
  "doctype": "DocType",
@@ -13,12 +14,14 @@
   "section_break_3",
   "driver",
   "driver_name",
+  "driver_email",
   "driver_address",
   "total_distance",
   "uom",
   "column_break_4",
   "vehicle",
   "departure_time",
+  "employee",
   "delivery_service_stops",
   "delivery_stops",
   "calculate_arrival_time",
@@ -63,8 +66,7 @@
    "fieldname": "driver",
    "fieldtype": "Link",
    "label": "Driver",
-   "options": "Driver",
-   "reqd": 1
+   "options": "Driver"
   },
   {
    "fetch_from": "driver.full_name",
@@ -163,17 +165,34 @@
   },
   {
    "fetch_from": "driver.address",
+   "fetch_if_empty": 1,
    "fieldname": "driver_address",
    "fieldtype": "Link",
    "label": "Driver Address",
    "options": "Address"
+  },
+  {
+   "fieldname": "driver_email",
+   "fieldtype": "Data",
+   "label": "Driver Email",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "driver.employee",
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee",
+   "read_only": 1
   }
  ],
  "is_submittable": 1,
- "modified": "2019-09-27 15:43:01.975139",
+ "links": [],
+ "modified": "2023-06-27 11:22:27.927637",
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Delivery Trip",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
@@ -209,5 +228,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
+ "states": [],
  "title_field": "driver_name"
 }

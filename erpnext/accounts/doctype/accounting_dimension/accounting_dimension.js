@@ -2,18 +2,28 @@
 // For license information, please see license.txt
 
 frappe.ui.form.on('Accounting Dimension', {
-
 	refresh: function(frm) {
 		frm.set_query('document_type', () => {
 			let invalid_doctypes = frappe.model.core_doctypes_list;
 			invalid_doctypes.push('Accounting Dimension', 'Project',
-				'Cost Center', 'Accounting Dimension Detail');
+				'Cost Center', 'Accounting Dimension Detail', 'Company');
 
 			return {
 				filters: {
 					name: ['not in', invalid_doctypes]
 				}
 			};
+		});
+
+		frm.set_query("offsetting_account", "dimension_defaults", function(doc, cdt, cdn) {
+			let d = locals[cdt][cdn];
+			return {
+				filters: {
+					company: d.company,
+					root_type: ["in", ["Asset", "Liability"]],
+					is_group: 0
+				}
+			}
 		});
 
 		if (!frm.is_new()) {
@@ -47,12 +57,6 @@ frappe.ui.form.on('Accounting Dimension', {
 
 		frm.set_value('label', frm.doc.document_type);
 		frm.set_value('fieldname', frappe.model.scrub(frm.doc.document_type));
-
-		if (frm.is_new()){
-			let row = frappe.model.add_child(frm.doc, "Accounting Dimension Detail", "dimension_defaults");
-			row.reference_document = frm.doc.document_type;
-			frm.refresh_fields("dimension_defaults");
-		}
 
 		frappe.db.get_value('Accounting Dimension', {'document_type': frm.doc.document_type}, 'document_type', (r) => {
 			if (r && r.document_type) {

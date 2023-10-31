@@ -1,4 +1,5 @@
 {
+ "actions": [],
  "allow_copy": 1,
  "allow_import": 1,
  "creation": "2013-01-30 12:49:46",
@@ -17,7 +18,6 @@
   "root_type",
   "report_type",
   "account_currency",
-  "inter_company_account",
   "column_break1",
   "parent_account",
   "account_type",
@@ -100,12 +100,6 @@
    "options": "Currency"
   },
   {
-   "default": "0",
-   "fieldname": "inter_company_account",
-   "fieldtype": "Check",
-   "label": "Inter Company Account"
-  },
-  {
    "fieldname": "column_break1",
    "fieldtype": "Column Break",
    "width": "50%"
@@ -129,7 +123,7 @@
    "label": "Account Type",
    "oldfieldname": "account_type",
    "oldfieldtype": "Select",
-   "options": "\nAccumulated Depreciation\nAsset Received But Not Billed\nBank\nCash\nChargeable\nCapital Work in Progress\nCost of Goods Sold\nDepreciation\nEquity\nExpense Account\nExpenses Included In Asset Valuation\nExpenses Included In Valuation\nFixed Asset\nIncome Account\nPayable\nReceivable\nRound Off\nStock\nStock Adjustment\nStock Received But Not Billed\nTax\nTemporary"
+   "options": "\nAccumulated Depreciation\nAsset Received But Not Billed\nBank\nCash\nChargeable\nCapital Work in Progress\nCost of Goods Sold\nDepreciation\nEquity\nExpense Account\nExpenses Included In Asset Valuation\nExpenses Included In Valuation\nFixed Asset\nIncome Account\nPayable\nReceivable\nRound Off\nStock\nStock Adjustment\nStock Received But Not Billed\nService Received But Not Billed\nTax\nTemporary"
   },
   {
    "description": "Rate at which this tax is applied",
@@ -196,10 +190,13 @@
  ],
  "icon": "fa fa-money",
  "idx": 1,
- "modified": "2019-10-10 19:10:02.967554",
+ "is_tree": 1,
+ "links": [],
+ "modified": "2023-04-11 16:08:46.983677",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Account",
+ "nsm_parent_field": "parent_account",
  "owner": "Administrator",
  "permissions": [
   {
@@ -255,5 +252,6 @@
  "show_name_in_global_search": 1,
  "sort_field": "modified",
  "sort_order": "ASC",
+ "states": [],
  "track_changes": 1
 }

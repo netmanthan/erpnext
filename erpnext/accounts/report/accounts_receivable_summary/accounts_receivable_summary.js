@@ -11,17 +11,17 @@ frappe.query_reports["Accounts Receivable Summary"] = {
 			"default": frappe.defaults.get_user_default("Company")
 		},
 		{
+			"fieldname":"report_date",
+			"label": __("Posting Date"),
+			"fieldtype": "Date",
+			"default": frappe.datetime.get_today()
+		},
+		{
 			"fieldname":"ageing_based_on",
 			"label": __("Ageing Based On"),
 			"fieldtype": "Select",
 			"options": 'Posting Date\nDue Date',
-			"default": "Posting Date"
-		},
-		{
-			"fieldname":"report_date",
-			"label": __("Date"),
-			"fieldtype": "Date",
-			"default": frappe.datetime.get_today()
+			"default": "Due Date"
 		},
 		{
 			"fieldname":"range1",
@@ -72,10 +72,27 @@ frappe.query_reports["Accounts Receivable Summary"] = {
 			}
 		},
 		{
-			"fieldname":"customer",
-			"label": __("Customer"),
-			"fieldtype": "Link",
-			"options": "Customer"
+			"fieldname":"party_type",
+			"label": __("Party Type"),
+			"fieldtype": "Autocomplete",
+			options: get_party_type_options(),
+			on_change: function() {
+				frappe.query_report.set_filter_value('party', "");
+				frappe.query_report.toggle_filter_display('customer_group', frappe.query_report.get_filter_value('party_type') !== "Customer");
+			}
+		},
+		{
+			"fieldname":"party",
+			"label": __("Party"),
+			"fieldtype": "MultiSelectList",
+			get_data: function(txt) {
+				if (!frappe.query_report.filters) return;
+
+				let party_type = frappe.query_report.get_filter_value('party_type');
+				if (!party_type) return;
+
+				return frappe.db.get_link_options(party_type, txt);
+			},
 		},
 		{
 			"fieldname":"customer_group",
@@ -111,7 +128,17 @@ frappe.query_reports["Accounts Receivable Summary"] = {
 			"fieldname":"based_on_payment_terms",
 			"label": __("Based On Payment Terms"),
 			"fieldtype": "Check",
-		}
+		},
+		{
+			"fieldname":"show_future_payments",
+			"label": __("Show Future Payments"),
+			"fieldtype": "Check",
+		},
+		{
+			"fieldname":"show_gl_balance",
+			"label": __("Show GL Balance"),
+			"fieldtype": "Check",
+		},
 	],
 
 	onload: function(report) {
@@ -122,11 +149,16 @@ frappe.query_reports["Accounts Receivable Summary"] = {
 	}
 }
 
-erpnext.dimension_filters.forEach((dimension) => {
-	frappe.query_reports["Accounts Receivable Summary"].filters.splice(9, 0 ,{
-		"fieldname": dimension["fieldname"],
-		"label": __(dimension["label"]),
-		"fieldtype": "Link",
-		"options": dimension["document_type"]
+erpnext.utils.add_dimensions('Accounts Receivable Summary', 9);
+
+function get_party_type_options() {
+	let options = [];
+	frappe.db.get_list(
+		"Party Type", {filters:{"account_type": "Receivable"}, fields:['name']}
+	).then((res) => {
+		res.forEach((party_type) => {
+			options.push(party_type.name);
+		});
 	});
-});
+	return options;
+}
