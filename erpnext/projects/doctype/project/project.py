@@ -1,4 +1,4 @@
-# Copyright (c) 2017, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2017, NETMANTHAN TECHNOLOGIES. and Contributors
 # License: GNU General Public License v3. See license.txt
 
 

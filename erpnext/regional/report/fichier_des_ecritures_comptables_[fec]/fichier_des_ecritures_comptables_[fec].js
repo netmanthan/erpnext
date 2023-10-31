@@ -1,4 +1,4 @@
-// Copyright (c) 2018, Frappe Technologies Pvt. Ltd. and contributors
+// Copyright (c) 2018, NETMANTHAN TECHNOLOGIES. and contributors
 // For license information, please see license.txt
 
 frappe.query_reports["Fichier des Ecritures Comptables [FEC]"] = {

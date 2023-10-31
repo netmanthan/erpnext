@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors
 # License: GNU General Public License v3. See license.txt
 
 
@@ -15,7 +15,7 @@ from erpnext.setup.doctype.incoterm.incoterm import create_incoterms
 from .default_success_action import get_default_success_action
 
 default_mail_footer = """<div style="padding: 7px; text-align: right; color: #888"><small>Sent via
-	<a style="color: #888" href="http://erpnext.org">ERPNext</a></div>"""
+	<a style="color: #888" href="http://erpnext.org">AdarshSweets ERP</a></div>"""
 
 
 def after_install():
@@ -39,7 +39,7 @@ def after_install():
 
 def check_setup_wizard_not_completed():
 	if cint(frappe.db.get_single_value("System Settings", "setup_complete") or 0):
-		message = """ERPNext can only be installed on a fresh site where the setup wizard is not completed.
+		message = """AdarshSweets ERP can only be installed on a fresh site where the setup wizard is not completed.
 You can reinstall this site (after saving your data) using: bench --site [sitename] reinstall"""
 		frappe.throw(message)  # nosemgrep
 

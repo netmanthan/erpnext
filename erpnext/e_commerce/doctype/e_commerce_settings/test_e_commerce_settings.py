@@ -1,4 +1,4 @@
-# Copyright (c) 2022, Frappe Technologies Pvt. Ltd. and Contributors
+# Copyright (c) 2022, NETMANTHAN TECHNOLOGIES. and Contributors
 # See license.txt
 import unittest
 
