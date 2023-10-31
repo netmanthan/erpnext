@@ -1,4 +1,4 @@
-# Copyright (c) 2019, NETMANTHAN TECHNOLOGIES. and Contributors
+# Copyright (c) 2019, Sparrownova Technologies and Contributors
 # See license.txt
 
 import datetime

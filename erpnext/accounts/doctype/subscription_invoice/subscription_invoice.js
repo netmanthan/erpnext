@@ -1,2 +1,2 @@
-// Copyright (c) 2018, NETMANTHAN TECHNOLOGIES. and contributors
+// Copyright (c) 2018, Sparrownova Technologies and contributors
 // For license information, please see license.txt

@@ -12,7 +12,7 @@ Assets
 Portal
 Maintenance
 Regional
-AdarshSweets ERP Integrations
+ERPNext Integrations
 Quality Management
 Communication
 Loan Management

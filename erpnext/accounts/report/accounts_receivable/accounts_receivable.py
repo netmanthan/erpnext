@@ -1,4 +1,4 @@
-# Copyright (c) 2015, NETMANTHAN TECHNOLOGIES.
+# Copyright (c) 2015, Sparrownova Technologies
 # License: GNU General Public License v3. See license.txt
 
 

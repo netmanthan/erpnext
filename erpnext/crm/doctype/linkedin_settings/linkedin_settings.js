@@ -1,4 +1,4 @@
-// Copyright (c) 2020, NETMANTHAN TECHNOLOGIES. and contributors
+// Copyright (c) 2020, Sparrownova Technologies and contributors
 // For license information, please see license.txt
 
 frappe.ui.form.on('LinkedIn Settings', {
@@ -14,7 +14,7 @@ frappe.ui.form.on('LinkedIn Settings', {
 				}
 			);
 		}
-		frm.dashboard.set_headline(__("For more information, {0}.", [`<a target='_blank' href='https://docs.erpnext.com/docs/user/manual/en/CRM/linkedin-settings'>${__('click here')}</a>`]));
+		frm.dashboard.set_headline(__("For more information, {0}.", [`<a target='_blank' href='https://docs.sparrownova.com/docs/user/manual/en/CRM/linkedin-settings'>${__('click here')}</a>`]));
 	},
 	refresh: function(frm) {
 		if (frm.doc.session_status=="Expired"){

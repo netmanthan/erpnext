@@ -1,4 +1,4 @@
-# Copyright (c) 2017, NETMANTHAN TECHNOLOGIES. and contributors
+# Copyright (c) 2017, Sparrownova Technologies and contributors
 # For license information, please see license.txt
 
 
@@ -170,7 +170,7 @@ class DeliveryTrip(Document):
 		for stop in self.delivery_stops:
 			leg.append(stop.customer_address)
 
-			if optimize and stop.lock:
+			if optimize and stop.locked:
 				route_list.append(leg)
 				leg = [stop.customer_address]
 

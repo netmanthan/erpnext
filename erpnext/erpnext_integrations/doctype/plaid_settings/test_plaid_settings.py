@@ -1,4 +1,4 @@
-# Copyright (c) 2018, NETMANTHAN TECHNOLOGIES. and Contributors
+# Copyright (c) 2018, Sparrownova Technologies and Contributors
 # See license.txt
 
 import json

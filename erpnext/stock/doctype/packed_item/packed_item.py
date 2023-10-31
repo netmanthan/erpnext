@@ -1,4 +1,4 @@
-# Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors
+# Copyright (c) 2015, Sparrownova Technologies and Contributors
 # MIT License. See license.txt
 
 # For license information, please see license.txt

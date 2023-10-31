@@ -199,7 +199,7 @@ erpnext.patches.v13_0.delete_old_bank_reconciliation_doctypes
 erpnext.patches.v13_0.update_vehicle_no_reqd_condition
 erpnext.patches.v13_0.rename_membership_settings_to_non_profit_settings
 erpnext.patches.v13_0.setup_uae_vat_fields
-execute:frappe.db.set_value('System Settings', None, 'app_name', 'AdarshSweets ERP')
+execute:frappe.db.set_value('System Settings', None, 'app_name', 'ERPNext')
 erpnext.patches.v12_0.purchase_receipt_status
 erpnext.patches.v13_0.fix_non_unique_represents_company
 erpnext.patches.v12_0.add_document_type_field_for_italy_einvoicing
@@ -272,7 +272,7 @@ erpnext.patches.v14_0.update_reference_due_date_in_journal_entry
 erpnext.patches.v14_0.france_depreciation_warning
 
 [post_model_sync]
-execute:frappe.delete_doc_if_exists('Workspace', 'AdarshSweets ERP Integrations Settings')
+execute:frappe.delete_doc_if_exists('Workspace', 'ERPNext Integrations Settings')
 erpnext.patches.v14_0.rename_ongoing_status_in_sla_documents
 erpnext.patches.v14_0.delete_shopify_doctypes
 erpnext.patches.v14_0.delete_healthcare_doctypes
@@ -342,5 +342,7 @@ execute:frappe.db.set_single_value('Selling Settings', 'allow_negative_rates_for
 erpnext.patches.v14_0.correct_asset_value_if_je_with_workflow
 erpnext.patches.v14_0.migrate_deferred_accounts_to_item_defaults
 erpnext.patches.v14_0.create_accounting_dimensions_in_sales_order_item
+erpnext.patches.v14_0.rename_over_order_allowance_field
+erpnext.patches.v14_0.migrate_delivery_stop_lock_field
 # below migration patch should always run last
 erpnext.patches.v14_0.migrate_gl_to_payment_ledger

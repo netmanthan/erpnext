@@ -1,14 +1,14 @@
 from frappe import _
 
 app_name = "erpnext"
-app_title = "AdarshSweets ERP"
-app_publisher = "NETMANTHAN TECHNOLOGIES."
+app_title = "ERPNext"
+app_publisher = "Sparrownova Technologies"
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
 app_email = "info@erpnext.com"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
+source_link = "https://github.com/netmanthan/erpnext"
 app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
 
 
@@ -471,8 +471,8 @@ email_brand_image = "assets/erpnext/images/erpnext-logo.jpg"
 default_mail_footer = """
 	<span>
 		Sent via
-		<a class="text-muted" href="https://erpnext.com?source=via_email_footer" target="_blank">
-			AdarshSweets ERP
+		<a class="text-muted" href="https://sparrownova.com?source=via_email_footer" target="_blank">
+			ERPNext
 		</a>
 	</span>
 """
@@ -584,7 +584,7 @@ user_privacy_documents = [
 	},
 ]
 
-# AdarshSweets ERP doctypes for Global Search
+# ERPNext doctypes for Global Search
 global_search_doctypes = {
 	"Default": [
 		{"doctype": "Customer", "index": 0},

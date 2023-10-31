@@ -1,4 +1,4 @@
-// Copyright (c) 2016, NETMANTHAN TECHNOLOGIES. and contributors
+// Copyright (c) 2016, Sparrownova Technologies and contributors
 // For license information, please see license.txt
 
 frappe.provide("erpnext.asset");
@@ -9,7 +9,6 @@ frappe.ui.form.on('Asset', {
 		frm.set_query("item_code", function() {
 			return {
 				"filters": {
-					"disabled": 0,
 					"is_fixed_asset": 1,
 					"is_stock_item": 0
 				}

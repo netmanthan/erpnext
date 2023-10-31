@@ -1,4 +1,4 @@
-// Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors
+// Copyright (c) 2015, Sparrownova Technologies and Contributors
 // License: GNU General Public License v3. See license.txt
 
 frappe.provide("erpnext.stock");
@@ -95,13 +95,6 @@ frappe.ui.form.on("Stock Reconciliation", {
 				fieldname: "item_code",
 				fieldtype: "Link",
 				options: "Item",
-				"get_query": function() {
-					return {
-						"filters": {
-							"disabled": 0,
-						}
-					};
-				}
 			},
 			{
 				label: __("Ignore Empty Stock"),

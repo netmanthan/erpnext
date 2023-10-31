@@ -1,4 +1,4 @@
-// Copyright (c) 2017, NETMANTHAN TECHNOLOGIES. and contributors
+// Copyright (c) 2017, Sparrownova Technologies and contributors
 // For license information, please see license.txt
 
 let search_fields_datatypes = ['Data', 'Link', 'Dynamic Link', 'Long Text', 'Select', 'Small Text', 'Text', 'Text Editor'];

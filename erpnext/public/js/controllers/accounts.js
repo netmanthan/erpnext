@@ -1,4 +1,4 @@
-// Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors
+// Copyright (c) 2015, Sparrownova Technologies and Contributors
 // License: GNU General Public License v3. See license.txt
 
 // get tax rate
@@ -28,7 +28,6 @@ frappe.ui.form.on(cur_frm.doctype, {
 					filters: {
 						"account_type": account_type,
 						"company": doc.company,
-						"disabled": 0
 					}
 				}
 			});

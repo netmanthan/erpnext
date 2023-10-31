@@ -1,4 +1,4 @@
-# Copyright (c) 2021, NETMANTHAN TECHNOLOGIES. and Contributors
+# Copyright (c) 2021, Sparrownova Technologies and Contributors
 # License: GNU General Public License v3. See license.txt
 
 

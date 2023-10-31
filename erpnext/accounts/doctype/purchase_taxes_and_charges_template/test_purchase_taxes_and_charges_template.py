@@ -1,4 +1,4 @@
-# Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors and Contributors
+# Copyright (c) 2015, Sparrownova Technologies and Contributors and Contributors
 # See license.txt
 
 import unittest

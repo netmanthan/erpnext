@@ -1,6 +1,6 @@
-## Netmanthan includes these public works
+## ERPNext includes these public works
 
-For Netmanthan, please see attributions.md at https://github.com/frappe/frappe/
+For Frappe Framework, please see attributions.md at https://github.com/netmanthan/frappe/
 
 #### Images
 

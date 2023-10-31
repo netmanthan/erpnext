@@ -28,7 +28,7 @@
    "fieldname": "user_id",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "AdarshSweets ERP User ID",
+   "label": "ERPNext User ID",
    "read_only": 1
   }
  ],

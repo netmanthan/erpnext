@@ -1,4 +1,4 @@
-// Copyright (c) 2022, NETMANTHAN TECHNOLOGIES. and contributors
+// Copyright (c) 2022, Sparrownova Technologies and contributors
 // For license information, please see license.txt
 /* eslint-disable */
 

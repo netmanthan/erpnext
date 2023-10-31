@@ -1,4 +1,4 @@
-# Copyright (c) 2018, NETMANTHAN TECHNOLOGIES. and Contributors
+# Copyright (c) 2018, Sparrownova Technologies and Contributors
 # See license.txt
 
 import json
@@ -35,7 +35,7 @@ class TestBankTransaction(FrappeTestCase):
 		add_transactions()
 		add_vouchers()
 
-	# This test checks if Netmanthan is able to provide a linked payment for a bank transaction based on the amount of the bank transaction.
+	# This test checks if ERPNext is able to provide a linked payment for a bank transaction based on the amount of the bank transaction.
 	def test_linked_payments(self):
 		bank_transaction = frappe.get_doc(
 			"Bank Transaction",
@@ -81,7 +81,7 @@ class TestBankTransaction(FrappeTestCase):
 		clearance_date = frappe.db.get_value("Payment Entry", payment.name, "clearance_date")
 		self.assertFalse(clearance_date)
 
-	# Check if Netmanthan can correctly filter a linked payments based on the debit/credit amount
+	# Check if ERPNext can correctly filter a linked payments based on the debit/credit amount
 	def test_debit_credit_output(self):
 		bank_transaction = frappe.get_doc(
 			"Bank Transaction",

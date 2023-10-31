@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2021, NETMANTHAN TECHNOLOGIES. and Contributors
+# Copyright (c) 2021, Sparrownova Technologies and Contributors
 # See license.txt
 
 import unittest

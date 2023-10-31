@@ -1,4 +1,4 @@
-# Copyright (c) 2021, NETMANTHAN TECHNOLOGIES. and contributors
+# Copyright (c) 2021, Sparrownova Technologies and contributors
 # License: GNU GPL v3. See LICENSE
 
 import json

@@ -1,4 +1,4 @@
-# Copyright (c) 2023, NETMANTHAN TECHNOLOGIES. and Contributors
+# Copyright (c) 2023, Sparrownova Technologies and Contributors
 # See license.txt
 
 # import frappe

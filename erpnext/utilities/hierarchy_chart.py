@@ -1,4 +1,4 @@
-# Copyright (c) 2021, NETMANTHAN TECHNOLOGIES. and Contributors
+# Copyright (c) 2021, Sparrownova Technologies and Contributors
 # MIT License. See license.txt
 
 

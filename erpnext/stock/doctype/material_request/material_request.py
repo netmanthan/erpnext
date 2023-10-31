@@ -1,7 +1,7 @@
-# Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors
+# Copyright (c) 2015, Sparrownova Technologies and Contributors
 # License: GNU General Public License v3. See license.txt
 
-# AdarshSweets ERP - web based ERP (http://erpnext.com)
+# ERPNext - web based ERP (http://erpnext.com)
 # For license information, please see license.txt
 
 

@@ -1,15 +1,15 @@
 {
   "name": "erpnext",
-  "description": "AdarshSweets  ERP System powered by the Netmanthan",
+  "description": "Open Source ERP System powered by the Frappe Framework",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frappe/erpnext.git"
+    "url": "git+https://github.com/netmanthan/erpnext.git"
   },
-  "homepage": "https://erpnext.com",
-  "author": "NETMANTHAN TECHNOLOGIES.",
+  "homepage": "https://sparrownova.com",
+  "author": "Sparrownova Technologies",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/frappe/erpnext/issues"
+    "url": "https://github.com/netmanthan/erpnext/issues"
   },
   "devDependencies": {},
   "dependencies": {

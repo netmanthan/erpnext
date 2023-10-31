@@ -1,4 +1,4 @@
-// Copyright (c) 2020, NETMANTHAN TECHNOLOGIES. and contributors
+// Copyright (c) 2020, Sparrownova Technologies and contributors
 // For license information, please see license.txt
 
 function time_to_seconds(time_str) {

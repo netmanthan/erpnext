@@ -3,7 +3,7 @@
  "autoname": "format: CRM-SMP-{YYYY}-{MM}-{DD}-{###}",
  "creation": "2020-01-30 11:53:13.872864",
  "doctype": "DocType",
- "documentation": "https://docs.erpnext.com/docs/user/manual/en/CRM/social-media-post",
+ "documentation": "https://docs.sparrownova.com/docs/user/manual/en/CRM/social-media-post",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [

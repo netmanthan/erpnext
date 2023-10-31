@@ -1,9 +1,9 @@
 [project]
 name = "erpnext"
 authors = [
-    { name = "NETMANTHAN TECHNOLOGIES Pvt Ltd", email = "developers@frappe.io"}
+    { name = "Sparrownova Technologies", email = "developers@frappe.io"}
 ]
-description = "AdarshSweets  ERP"
+description = "Open Source ERP"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

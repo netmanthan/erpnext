@@ -1,4 +1,4 @@
-# Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors
+# Copyright (c) 2015, Sparrownova Technologies and Contributors
 # License: GNU General Public License v3. See license.txt
 
 import frappe
@@ -164,6 +164,6 @@ def insert_record(records):
 
 
 def welcome_email():
-	site_name = get_default_company() or "AdarshSweets ERP"
+	site_name = get_default_company() or "ERPNext"
 	title = _("Welcome to {0}").format(site_name)
 	return title

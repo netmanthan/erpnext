@@ -1,4 +1,4 @@
-# Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors
+# Copyright (c) 2015, Sparrownova Technologies and Contributors
 
 # For license information, please see license.txt
 
@@ -466,7 +466,7 @@ def apply_price_discount_rule(pricing_rule, item_details, args):
 		if pricing_rule.currency == args.currency:
 			pricing_rule_rate = pricing_rule.rate
 
-		# TODO https://github.com/frappe/erpnext/pull/23636 solve this in some other way.
+		# TODO https://github.com/netmanthan/erpnext/pull/23636 solve this in some other way.
 		if pricing_rule_rate:
 			is_blank_uom = pricing_rule.get("uom") != args.get("uom")
 			# Override already set price list rate (from item price)

@@ -1,4 +1,4 @@
-// Copyright (c) 2016, NETMANTHAN TECHNOLOGIES. and contributors
+// Copyright (c) 2016, Sparrownova Technologies and contributors
 // For license information, please see license.txt
 
 cur_frm.add_fetch('bank_account','account','account');

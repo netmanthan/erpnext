@@ -1,4 +1,4 @@
-// Copyright (c) 2019, NETMANTHAN TECHNOLOGIES. and Contributors
+// Copyright (c) 2019, Sparrownova Technologies and Contributors
 // MIT License. See license.txt
 
 frappe.ui.form.on('Website Theme', {

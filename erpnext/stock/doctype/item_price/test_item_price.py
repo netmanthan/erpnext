@@ -1,4 +1,4 @@
-# Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors
+# Copyright (c) 2015, Sparrownova Technologies and Contributors
 # License: GNU General Public License v3. See license.txt
 
 
@@ -43,7 +43,7 @@ class TestItemPrice(FrappeTestCase):
 		self.assertRaises(ItemPriceDuplicateItem, doc.save)
 
 	def test_addition_of_new_fields(self):
-		# Based on https://github.com/frappe/erpnext/issues/8456
+		# Based on https://github.com/netmanthan/erpnext/issues/8456
 		test_fields_existance = [
 			"supplier",
 			"customer",

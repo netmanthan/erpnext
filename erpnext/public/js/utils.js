@@ -1,4 +1,4 @@
-// Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors
+// Copyright (c) 2015, Sparrownova Technologies and Contributors
 // License: GNU General Public License v3. See license.txt
 frappe.provide("erpnext");
 frappe.provide("erpnext.utils");
@@ -344,7 +344,7 @@ $.extend(erpnext.utils, {
 	check_payments_app: () => {
 		if (frappe.boot.versions && !frappe.boot.versions.payments) {
 			const marketplace_link = '<a href="https://frappecloud.com/marketplace/apps/payments">Marketplace</a>'
-			const github_link = '<a href="https://github.com/frappe/payments/">GitHub</a>'
+			const github_link = '<a href="https://github.com/netmanthan/payments/">GitHub</a>'
 			const msg = __("payments app is not installed. Please install it from {0} or {1}", [marketplace_link, github_link])
 			frappe.msgprint(msg);
 		}

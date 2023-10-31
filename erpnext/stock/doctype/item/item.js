@@ -1,4 +1,4 @@
-// Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors
+// Copyright (c) 2015, Sparrownova Technologies and Contributors
 // License: GNU General Public License v3. See license.txt
 
 frappe.provide("erpnext.item");
@@ -861,7 +861,7 @@ frappe.tour['Item'] = [
 	{
 		fieldname: "is_stock_item",
 		title: "Maintain Stock",
-		description: __("If you are maintaining stock of this Item in your Inventory, AdarshSweets ERP will make a stock ledger entry for each transaction of this item.")
+		description: __("If you are maintaining stock of this Item in your Inventory, ERPNext will make a stock ledger entry for each transaction of this item.")
 	},
 	{
 		fieldname: "include_item_in_manufacturing",
@@ -876,7 +876,7 @@ frappe.tour['Item'] = [
 	{
 		fieldname: "valuation_rate",
 		title: "Valuation Rate",
-		description: __("There are two options to maintain valuation of stock. FIFO (first in - first out) and Moving Average. To understand this topic in detail please visit <a href='https://docs.erpnext.com/docs/v13/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average' target='_blank'>Item Valuation, FIFO and Moving Average.</a>")
+		description: __("There are two options to maintain valuation of stock. FIFO (first in - first out) and Moving Average. To understand this topic in detail please visit <a href='https://docs.sparrownova.com/docs/v13/user/manual/en/stock/articles/item-valuation-fifo-and-moving-average' target='_blank'>Item Valuation, FIFO and Moving Average.</a>")
 	},
 	{
 		fieldname: "standard_rate",

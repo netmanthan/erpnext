@@ -1,4 +1,4 @@
-# Copyright (c) 2021, NETMANTHAN TECHNOLOGIES and Contributors
+# Copyright (c) 2021, Frappe and Contributors
 # License: GNU General Public License v3. See license.txt
 
 import frappe

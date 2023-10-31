@@ -1,4 +1,4 @@
-// Copyright (c) 2016, NETMANTHAN TECHNOLOGIES. and contributors
+// Copyright (c) 2016, Sparrownova Technologies and contributors
 // For license information, please see license.txt
 
 frappe.query_reports["Supplier Quotation Comparison"] = {
@@ -42,11 +42,6 @@ frappe.query_reports["Supplier Quotation Comparison"] = {
 							"from": "Supplier Quotation Item",
 							"parent": quote
 						}
-					}
-				}
-				else {
-					return {
-						filters: { "disabled": 0 }
 					}
 				}
 			}

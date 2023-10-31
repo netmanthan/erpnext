@@ -1,4 +1,4 @@
-// Copyright (c) 2015, NETMANTHAN TECHNOLOGIES. and Contributors
+// Copyright (c) 2015, Sparrownova Technologies and Contributors
 // License: GNU General Public License v3. See license.txt
 
 frappe.ui.form.on("Item Price", {
@@ -6,7 +6,6 @@ frappe.ui.form.on("Item Price", {
 		frm.set_query("item_code", function() {
 			return {
 				filters: {
-					"disabled": 0,
 					"has_variants": 0
 				}
 			};
