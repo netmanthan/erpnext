@@ -61,6 +61,6 @@ def execute():
 
 	click.secho(
 		"Education Module is moved to a separate app"
-		"Please install the app to continue using the module: https://github.com/frappe/education",
+		"Please install the app to continue using the module: https://github.com/netmanthan/education",
 		fg="yellow",
 	)
