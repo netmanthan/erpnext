@@ -1,4 +1,4 @@
-# Copyright (c) 2019, Frappe and Contributors
+# Copyright (c) 2019, NETMANTHAN TECHNOLOGIES and Contributors
 # License: GNU General Public License v3. See license.txt
 
 

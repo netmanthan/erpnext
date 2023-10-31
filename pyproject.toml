@@ -1,7 +1,7 @@
 [project]
 name = "erpnext"
 authors = [
-    { name = "Frappe Technologies Pvt Ltd", email = "developers@frappe.io"}
+    { name = "NETMANTHAN TECHNOLOGIES Pvt Ltd", email = "developers@frappe.io"}
 ]
 description = "AdarshSweets  ERP"
 requires-python = ">=3.10"

@@ -1,4 +1,4 @@
-# Copyright (c) 2018, Frappe and contributors
+# Copyright (c) 2018, NETMANTHAN TECHNOLOGIES and contributors
 # For license information, please see license.txt
 
 
